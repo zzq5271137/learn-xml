@@ -1,0 +1,8 @@
+<!ELEMENT web-app (servlet*,servlet-mapping*,wel-file-list?)>
+<!ELEMENT servlet (servlet-name,description?,(servlet-class|jsp-file))>
+<!ELEMENT servlet-name (#PCDATA)>
+<!ELEMENT wel-file-list (welcome-file+)>
+
+
+
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!DOCTYPE allPerson PUBLIC "//UNKNOWN/" "unknown.dtd"> -->
+
+<!-- 规定文档当中只能写哪些标签。并且会给一些提示  -->
+<!DOCTYPE students SYSTEM  "student.dtd">
+
+<root>
+
+<students>
+	
+	<student number="a001">
+		<name>张三</name>
+		<age>18</age>
+		<sex>男</sex>
+	</student>
+	
+	<student number="a002">
+		<name>李四</name>
+		<age>20</age>
+		<sex>男</sex>
+	</student>
+	
+</students>
+
+
+<person>
+	<dog>aa</dog>
+	<cat>aaa</cat>
+</person>
+
+
+</root>
+
